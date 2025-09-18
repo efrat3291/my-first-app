@@ -1,12 +1,12 @@
-import React from "react";
+import { Link } from 'react-router-dom';
 
 export default function Sidebar() {
   return (
     <aside className="sidebar">
-      <ul >
-        <li><a href="#"> Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+      <ul>
+        <li><Link to="/"> ToDoList</Link></li>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/contact">Contact </Link></li>
       </ul>
     </aside>
   );

@@ -59,7 +59,7 @@
 
 
 .header {
-  background: #333;
+  background: #f2a6a6;
   color: white;
   padding: 1rem;
 }
@@ -80,9 +80,52 @@
 }
 
 .footer {
-  background: #333;
+  background: #f2a6a6;
   color: white;
   padding: 1rem;
   margin-top: auto;
   text-align: center;
 }
+
+.main-content {
+  flex: 1;
+  padding: 1rem;
+}
+
+
+.todo-container {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.todo-input {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.todo-input input {
+  flex: 1;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.todo-input button {
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  background-color: f2a6a6;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
